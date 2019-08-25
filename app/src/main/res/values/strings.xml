@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Noda Player</string>
+
+    <string name="library_toolbar_button1">Player</string>
+    <string name="library_toolbar_button2">Browse</string>
+
+    <string name="player_button2">Play</string>
+    <string name="player_button1">Previous</string>
+    <string name="player_button3">Next</string>
+    <string name="player_toolbar_button1">Library</string>
+    <string name="player_toolbar_button2">Browse</string>
+    <string name="player_first_text_view">Now Playing...</string>
+    <string name="player_song_name">ELEMENT.</string>
+    <string name="player_album_name">DAMN.</string>
+
+    <string name="browse_toolbar_button1">Library</string>
+    <string name="browse_toolbar_button2">Player</string>
+    <string name="browse_first_column_button1">Hip Hop</string>
+    <string name="browse_first_column_button2">Country</string>
+    <string name="browse_first_column_button3">Latin</string>
+    <string name="browse_first_column_button4">Rock</string>
+    <string name="browse_second_column_button1">Classic</string>
+    <string name="browse_second_column_button2">Pop</string>
+    <string name="browse_second_column_button3">Reggae</string>
+    <string name="browse_second_column_button4">Indie</string>
+    <string name="browse_feature_textview">Featured</string>
+    <string name="browse_category_textview">Categories</string>
+    <string name="browse_album_description">album cover</string>
+
+    <string name="song_one_name">Nice For What</string>
+    <string name="song_one_artist">Drake</string>
+    <string name="song_two_name">I\'m Upset</string>
+    <string name="song_two_artist">Drake</string>
+    <string name="song_three_name">Shoota (feat. Lil Uzi Vert)</string>
+    <string name="song_three_artist">Playboi Carti</string>
+    <string name="song_four_name">Praise The Lord(Da Shine)</string>
+    <string name="song_four_artist">A$AP Rocky, Skepta</string>
+    <string name="song_five_name">Yes Indeed</string>
+    <string name="song_five_artist">Lil Baby, Drake</string>
+    <string name="song_six_song">TATI</string>
+    <string name="song_six_artist">6ix9ine, DJ SpinKing</string>
+    <string name="song_seven_artist">Tyga, Offset</string>
+    <string name="song_eight_artist">Travis Scott</string>
+
+</resources>

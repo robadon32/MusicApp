@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/music_player_background_color">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/browse_text_view_margin"
+            android:layout_marginStart="@dimen/browse_text_view_margin"
+            android:layout_marginTop="@dimen/browse_text_view_margin"
+            android:layout_marginBottom="@dimen/browse_text_view_margin"
+            android:textSize="@dimen/browse_text_view_text_size"
+            android:text="@string/browse_feature_textview"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/browse_image_view_width"
+                    android:layout_height="@dimen/browse_image_view_height"
+                    android:contentDescription="@string/browse_album_description"
+                    android:layout_marginLeft="@dimen/browse_image_view_margin"
+                    android:layout_marginStart="@dimen/browse_image_view_margin"
+                    android:src="@drawable/drake"/>
+
+                <ImageView
+                    android:layout_width="@dimen/browse_image_view_width"
+                    android:layout_height="@dimen/browse_image_view_height"
+                    android:contentDescription="@string/browse_album_description"
+                    android:layout_marginLeft="@dimen/browse_image_view_margin"
+                    android:layout_marginStart="@dimen/browse_image_view_margin"
+                    android:src="@drawable/kanye"/>
+
+                <ImageView
+                    android:layout_width="@dimen/browse_image_view_width"
+                    android:layout_height="@dimen/browse_image_view_height"
+                    android:contentDescription="@string/browse_album_description"
+                    android:layout_marginLeft="@dimen/browse_image_view_margin"
+                    android:layout_marginStart="@dimen/browse_image_view_margin"
+                    android:src="@drawable/drake2"/>
+
+                <ImageView
+                    android:layout_width="@dimen/browse_image_view_width"
+                    android:layout_height="@dimen/browse_image_view_height"
+                    android:contentDescription="@string/browse_album_description"
+                    android:layout_marginLeft="@dimen/browse_image_view_margin"
+                    android:layout_marginStart="@dimen/browse_image_view_margin"
+                    android:src="@drawable/eminem"/>
+
+                <ImageView
+                    android:layout_width="@dimen/browse_image_view_width"
+                    android:layout_height="@dimen/browse_image_view_height"
+                    android:contentDescription="@string/browse_album_description"
+                    android:layout_marginLeft="@dimen/browse_image_view_margin"
+                    android:layout_marginStart="@dimen/browse_image_view_margin"
+                    android:src="@drawable/kendrick"/>
+
+                <ImageView
+                    android:layout_width="@dimen/browse_image_view_width"
+                    android:layout_height="@dimen/browse_image_view_height"
+                    android:contentDescription="@string/browse_album_description"
+                    android:layout_marginLeft="@dimen/browse_image_view_margin"
+                    android:layout_marginStart="@dimen/browse_image_view_margin"
+                    android:src="@drawable/linkinpark"/>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/browse_text_view_margin"
+            android:layout_marginStart="@dimen/browse_text_view_margin"
+            android:layout_marginTop="@dimen/browse_text_view_margin"
+            android:layout_marginBottom="@dimen/browse_text_view_margin"
+            android:textSize="@dimen/browse_text_view_text_size"
+            android:text="@string/browse_category_textview"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hip_hop"
+                    android:layout_width="@dimen/browse_category_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/browse_category_margin_bottom"
+                    android:layout_marginLeft="@dimen/browse_category_margin_left"
+                    android:layout_marginStart="@dimen/browse_category_margin_left"
+                    android:background="@color/button_color"
+                    android:padding="@dimen/browse_category_padding"
+                    android:text="@string/browse_first_column_button1"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/country"
+                    android:layout_width="@dimen/browse_category_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/browse_category_margin_bottom"
+                    android:layout_marginLeft="@dimen/browse_category_margin_left"
+                    android:layout_marginStart="@dimen/browse_category_margin_left"
+                    android:background="@color/button_color"
+                    android:padding="@dimen/browse_category_padding"
+                    android:text="@string/browse_first_column_button2"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/latin"
+                    android:layout_width="@dimen/browse_category_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/browse_category_margin_bottom"
+                    android:layout_marginLeft="@dimen/browse_category_margin_left"
+                    android:layout_marginStart="@dimen/browse_category_margin_left"
+                    android:background="@color/button_color"
+                    android:padding="@dimen/browse_category_padding"
+                    android:text="@string/browse_first_column_button3"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/rock"
+                    android:layout_width="@dimen/browse_category_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/browse_category_margin_left"
+                    android:layout_marginStart="@dimen/browse_category_margin_left"
+                    android:background="@color/button_color"
+                    android:padding="@dimen/browse_category_padding"
+                    android:text="@string/browse_first_column_button4"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/classic"
+                    android:layout_width="@dimen/browse_category_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/browse_category_margin_bottom"
+                    android:layout_marginLeft="@dimen/browse_category_margin_left"
+                    android:layout_marginStart="@dimen/browse_category_margin_left"
+                    android:background="@color/button_color"
+                    android:padding="@dimen/browse_category_padding"
+                    android:text="@string/browse_second_column_button1"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/pop"
+                    android:layout_width="@dimen/browse_category_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/browse_category_margin_bottom"
+                    android:layout_marginLeft="@dimen/browse_category_margin_left"
+                    android:layout_marginStart="@dimen/browse_category_margin_left"
+                    android:background="@color/button_color"
+                    android:padding="@dimen/browse_category_padding"
+                    android:text="@string/browse_second_column_button2"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/reggae"
+                    android:layout_width="@dimen/browse_category_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/browse_category_margin_bottom"
+                    android:layout_marginLeft="@dimen/browse_category_margin_left"
+                    android:layout_marginStart="@dimen/browse_category_margin_left"
+                    android:background="@color/button_color"
+                    android:padding="@dimen/browse_category_padding"
+                    android:text="@string/browse_second_column_button3"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/indie"
+                    android:layout_width="@dimen/browse_category_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/browse_category_margin_left"
+                    android:layout_marginStart="@dimen/browse_category_margin_left"
+                    android:background="@color/button_color"
+                    android:padding="@dimen/browse_category_padding"
+                    android:text="@string/browse_second_column_button4"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/library_button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/library_button_margin"
+        android:layout_marginStart="@dimen/library_button_margin"
+        android:text="@string/browse_toolbar_button1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="@dimen/library_button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/library_button_margin"
+        android:layout_marginRight="@dimen/library_button_margin"
+        android:text="@string/browse_toolbar_button2" />
+
+</RelativeLayout>

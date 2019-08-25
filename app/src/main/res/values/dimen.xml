@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="library_button_margin">60dp</dimen>
+    <dimen name="library_button_width">90dp</dimen>
+    <dimen name="library_list_padding">16dp</dimen>
+
+    <dimen name="song_item_text_size">18sp</dimen>
+    <dimen name="song_item_layout_padding">16dp</dimen>
+    
+    <dimen name="player_button_margin">30dp</dimen>
+    <dimen name="player_button_linear_layout">50dp</dimen>
+    <dimen name="player_song_text_view_margin">16dp</dimen>
+    <dimen name="player_album_text_view_margin">40dp</dimen>
+    <dimen name="player_divider_text_view_marginT">72dp</dimen>
+    <dimen name="player_divider_text_view_marginL">16dp</dimen>
+    <dimen name="player_divider_text_view_marginR">16dp</dimen>
+    <dimen name="player_image_view_width">340dp</dimen>
+    <dimen name="player_image_view_margin">20dp</dimen>
+    <dimen name="player_first_text_view_marginL">145dp</dimen>
+    <dimen name="player_first_text_view_marginT">16dp</dimen>
+
+    <dimen name="browse_text_view_text_size">16sp</dimen>
+    <dimen name="browse_text_view_margin">16dp</dimen>
+    <dimen name="browse_image_view_margin">16dp</dimen>
+    <dimen name="browse_image_view_height">130dp</dimen>
+    <dimen name="browse_image_view_width">130dp</dimen>
+    <dimen name="browse_category_margin_left">50dp</dimen>
+    <dimen name="browse_category_margin_bottom">20dp</dimen>
+    <dimen name="browse_category_padding">10dp</dimen>
+    <dimen name="browse_category_width">100dp</dimen>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/music_player_background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="@dimen/library_list_padding">
+        </ListView>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog.FixedSize" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/library_button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/library_button_margin"
+        android:layout_marginStart="@dimen/library_button_margin"
+        android:text="@string/library_toolbar_button1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="@dimen/library_button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/library_button_margin"
+        android:layout_marginRight="@dimen/library_button_margin"
+        android:text="@string/library_toolbar_button2" />
+
+</RelativeLayout>
